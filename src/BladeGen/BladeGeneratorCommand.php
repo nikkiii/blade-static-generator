@@ -20,6 +20,8 @@ class BladeGeneratorCommand extends Command {
 	public function __construct() {
 		parent::__construct();
 
+		require_once dirname(__FILE__) . '/helpers.php';
+
 		$this->fs = new Filesystem();
 		$this->base = dirname(dirname(dirname(__FILE__)));
 		$this->path = $this->base . '/views';
