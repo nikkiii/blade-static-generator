@@ -1,0 +1,26 @@
+{
+  "description": "standalone blade site generator",
+  "license": "MIT",
+  "type": "project",
+  "require": {
+	"symfony/console": "2.6.*",
+	"illuminate/view": "5.0.*@dev",
+	"illuminate/events": "5.0.*@dev"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+	"classmap": [],
+	"psr-4": {
+	  "BladeGen\\": "src/BladeGen"
+	}
+  },
+  "scripts": {
+
+  },
+  "config": {
+	"preferred-install": "dist"
+  },
+  "minimum-stability": "dev"
+}
